@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000;
+}
+
+.header {
+    width: 100%;
+    padding: 2px;
+    display: flex;
+    color: #32b9cd;
+    border-bottom: 3px solid #32b9cd;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-titulo {
+    width: 40%;
+    font-weight: 600;
+}
+
+.navbar{
+    width: 40%;
+    color: #e3b062;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+}
+
+li:hover{
+    font-weight: 600;
+    color: #32b9cd;
+}
